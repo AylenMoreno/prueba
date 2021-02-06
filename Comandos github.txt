@@ -1,12 +1,13 @@
 git clone (url) Clona repositorio
 
 cd Ingresa a carpeta
+cd ../ vuelve a la carpeta anterior
 clear / cls Limpia terminal
 dir Muestra los archivos donde estes posicionado
 
 git status Indica los cambios hechos dentro del proyecto (rojo o verde)
-git add . Prepara los archivos para subir
-git commit -m "comentario" Comentario
+git add . Agrega los cambios hechos
+git commit -m "comentario"  Prepara los archivos para subir al repositorio en internet
 git push origin master -f Subir el archivo a github
 
 Opcionales
