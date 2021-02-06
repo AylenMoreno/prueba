@@ -4,10 +4,10 @@ cd Ingresa a carpeta
 clear / cls Limpia terminal
 dir Muestra los archivos donde estes posicionado
 
-git status 
-git add .
-git commit -m "comentario"
-git push origin master -f
+git status Indica los cambios hechos dentro del proyecto (rojo o verde)
+git add . Prepara los archivos para subir
+git commit -m "comentario" Comentario
+git push origin master -f Subir el archivo a github
 
 Opcionales
 git config --global user.name "Your Name"
